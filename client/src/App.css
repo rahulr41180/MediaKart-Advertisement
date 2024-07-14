@@ -1,0 +1,5 @@
+
+.svgimage-animation {
+  transform: translateY(100%);
+  animation: slide-in 1s forwards;
+}

@@ -1,0 +1,54 @@
+
+.advertise_container {
+    position: absolute;
+    left: 24%;
+    right: 0;
+    height: 240vh;
+}
+
+.advertise_navbar {
+    width: 97.9%;
+    height: 5%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.advertise_logo {
+    width: auto;
+    height: 100%;
+}
+
+.advertise_heading {
+    margin: 10px 0 0 40px;
+}
+
+.advertise_carImage {
+    margin: 10px 0 0 40px;
+    width: auto;
+    height: 34%;
+}
+
+.advertise_txt1 {
+    margin: 10px 0 0 40px;
+    width: 87%;
+    font-size: 18px;
+}
+
+.advertise_footer {
+    margin: 40px 0 0 0;
+    height: 20%;
+    width: 99.9%;
+    background-color: rgb(104, 102, 102);
+    display: flex;
+    justify-content: center;
+}
+
+.advertise_footerImage {
+    border: 1px solid;
+    width: auto;
+    height: 12%;
+    margin: 20px 0 0 0;
+}

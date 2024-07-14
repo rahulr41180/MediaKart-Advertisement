@@ -1,0 +1,33 @@
+
+.mainu_container {
+    width: 22.1vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 10px 10px;
+    background-color: rgb(231, 231, 237);
+}
+
+.mainu_heading {
+
+    color: rgb(130, 103, 108);
+    margin: 0;
+}
+
+.mainu_subHeading {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.mainu_button {
+    width: 80%;
+    height: 8%;
+    font-size: 20px;
+    border: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

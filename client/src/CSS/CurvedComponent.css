@@ -1,0 +1,71 @@
+
+.curved_svg {
+    border: 0px solid;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.car_container {
+    position: absolute;
+    width: 175px;
+    height: 70px;
+    top: -70px
+}
+
+.car_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.car_wheel1_img {
+    position: absolute;
+    width: auto;
+    height: 32%;
+    left: 24px;
+    top: 42.9px;
+}
+
+.car_wheel2_img {
+    position: absolute;
+    width: auto;
+    height: 32%;
+    right: 24px;
+    top: 42.99px;
+}
+
+.curved_txt1,
+.curved_txt2 {
+    position: absolute;
+    top: 100px;
+    left: 360px;
+    color: blue;
+    font-weight: bold;
+    transform: translateX(-50%);
+    animation: slideRight 2s forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

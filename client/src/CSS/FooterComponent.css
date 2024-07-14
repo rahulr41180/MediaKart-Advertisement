@@ -1,0 +1,9 @@
+
+.footer {
+    border: 0px solid blue;
+    position: fixed;
+    width: 75vw;
+    height: 27vh;
+    right: 0;
+    bottom: 0;
+}
